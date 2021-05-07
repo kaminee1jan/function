@@ -1,0 +1,11 @@
+r=1 
+while r<=5:
+    c=1 
+    while c<=15:
+        if (r==1 and (c==4 or c==5 or c==7 or c==9 or c==10 or c==12 or c==13 or c==14))or(r==2 and(c==1 or c==3 or c==4 or c==6 or c==8 or c==10 or c==12 or c==13 or c==14))or(r==3 and(c==1 or c==3 or c==4 or c==6 or c==7 or c==8 or c==10 or c==12 or c==13 or c==14))or(r==4 and(c==1 or c==3 or c==4 or c==5 or c==7 or c==9 or c==10 or c==12 or c==13 or c==14))or(r==5 and (c==4 or c==5 or c==6 or c==8 or c==9 or c==10 or c==11 or c==15)):
+            print(" ",end=" ")
+        else:
+            print("*",end=" ")
+        c=c+1
+    print( )
+    r=r+1
